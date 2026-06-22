@@ -1,0 +1,28 @@
+# Auto-push commit lock (transient mutex - never commit)
+.vault.lock/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+
+# Training artifacts / caches (regenerable)
+catboost_info/
+data/
+outputs/
+
+# Env / secrets / OS junk
+.env
+*.env
+~$*
+*.tmp
+Thumbs.db
+Desktop.ini
+.DS_Store

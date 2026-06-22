@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"D:\\Coding\\f1_prediction\\f1_race_prediciton\\.codex\\hooks\\session-end-git-backstop.ps1\"",
+            "commandWindows": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"D:\\Coding\\f1_prediction\\f1_race_prediciton\\.codex\\hooks\\session-end-git-backstop.ps1\"",
+            "timeout": 120
+          }
+        ]
+      }
+    ]
+  }
+}
